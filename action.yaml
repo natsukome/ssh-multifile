@@ -1,0 +1,248 @@
+name: 'ssh-multi-file-transfar'
+auther: 'natsukome'
+description: 'send multiple files and directories with sftp'
+inputs:
+  ssh_key:  # id of input
+    description: 'input your ssh-key'
+    required: true
+    default: 'you should specify this area'
+  host:
+    description: 'input your host-ip-address or host-name'
+    required: true
+    default: 'you should specify this area'
+  port:
+    description: 'input your hosts port'
+    required: true
+    default: 'you should specify this area'
+  username:
+    description: 'input your username'
+    required: true
+    default: 'you should specify this area'
+  local_1:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_1:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_2:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_2:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_3:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_3:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_4:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_4:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_5:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_5:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_6:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_6:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_7:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_7:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_8:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_8:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_9:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_1'
+    required: false
+    default: '0'
+  remote_9:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_1'
+    required: false
+    default: '0'
+  local_10:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_10'
+    required: false
+    default: '0'
+  remote_10:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_10'
+    required: false
+    default: '0'
+  local_11:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_11'
+    required: false
+    default: '0'
+  remote_11:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_11'
+    required: false
+    default: '0'
+  local_12:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_12'
+    required: false
+    default: '0'
+  remote_12:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_12'
+    required: false
+    default: '0'
+  local_13:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_13'
+    required: false
+    default: '0'
+  remote_13:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_13'
+    required: false
+    default: '0'
+  local_14:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_14'
+    required: false
+    default: '0'
+  remote_14:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_14'
+    required: false
+    default: '0'
+  local_15:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_15'
+    required: false
+    default: '0'
+  remote_15:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_15'
+    required: false
+    default: '0'
+  local_16:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_16'
+    required: false
+    default: '0'
+  remote_16:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_16'
+    required: false
+    default: '0'
+  local_17:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_17'
+    required: false
+    default: '0'
+  remote_17:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_17'
+    required: false
+    default: '0'
+  local_18:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_18'
+    required: false
+    default: '0'
+  remote_18:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_18'
+    required: false
+    default: '0'
+  local_19:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_19'
+    required: false
+    default: '0'
+  remote_19:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_19'
+    required: false
+    default: '0'
+  local_20:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_20'
+    required: false
+    default: '0'
+  remote_20:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_20'
+    required: false
+    default: '0'
+  local_21:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_21'
+    required: false
+    default: '0'
+  remote_21:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_21'
+    required: false
+    default: '0'
+  local_22:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_22'
+    required: false
+    default: '0'
+  remote_22:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_22'
+    required: false
+    default: '0'
+  local_23:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_23'
+    required: false
+    default: '0'
+  remote_23:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_23'
+    required: false
+    default: '0'
+  local_24:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_24'
+    required: false
+    default: '0'
+  remote_24:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_24'
+    required: false
+    default: '0'
+  local_25:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_25'
+    required: false
+    default: '0'
+  remote_25:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_25'
+    required: false
+    default: '0'
+  local_26:
+    description: 'local file or directory which you want to send your server with sftp. you should specify remote_26'
+    required: false
+    default: '0'
+  remote_26:
+    description: 'server file or directory where you want to send to with sftp. you should specify local_26'
+    required: false
+    default: '0'
+
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet }}
